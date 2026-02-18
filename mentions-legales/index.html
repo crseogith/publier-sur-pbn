@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentions Légales - Publier sur PBN & Backlinks Francophones</title>
+    <meta name="description" content="Mentions légales du site publier-pbn.crseo.click - Informations juridiques et conditions d'utilisation.">
+    
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #1E40AF;
+            --secondary: #DC2626;
+            --accent: #F59E0B;
+            --text: #1F2937;
+            --text-light: #6B7280;
+            --bg: #F9FAFB;
+            --card-bg: #FFFFFF;
+            --border: #E5E7EB;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        h1, h2, h3, h4, h5 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            line-height: 1.3;
+        }
+
+        /* Navigation */
+        .navbar {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            padding: 1rem 0;
+        }
+
+        .navbar-brand {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 800;
+            font-size: 1.5rem;
+            color: var(--primary);
+        }
+
+        .nav-link {
+            color: var(--text);
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: var(--primary);
+        }
+
+        /* Page Header */
+        .page-header {
+            background: linear-gradient(135deg, var(--primary) 0%, #1E3A8A 100%);
+            padding: 8rem 0 4rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .page-header h1 {
+            color: white;
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            margin-bottom: 1rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        .page-header .highlight {
+            color: var(--accent);
+        }
+
+        .page-header p {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.2rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Content Section */
+        .legal-content {
+            padding: 4rem 0;
+        }
+
+        .legal-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 3rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .legal-card:hover {
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .legal-card h2 {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 3px solid var(--accent);
+            display: inline-block;
+        }
+
+        .legal-card h3 {
+            font-size: 1.5rem;
+            color: var(--secondary);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .legal-card p {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        .legal-card ul {
+            margin-bottom: 1.5rem;
+            padding-left: 2rem;
+        }
+
+        .legal-card ul li {
+            margin-bottom: 0.5rem;
+            line-height: 1.8;
+        }
+
+        .info-box {
+            background: linear-gradient(135deg, rgba(30, 64, 175, 0.05), rgba(245, 158, 11, 0.05));
+            border-left: 4px solid var(--primary);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 8px;
+        }
+
+        .info-box p {
+            margin-bottom: 0.5rem;
+        }
+
+        .info-box strong {
+            color: var(--primary);
+        }
+
+        .info-box a {
+            color: var(--primary);
+            text-decoration: underline;
+        }
+
+        .last-updated {
+            background: var(--primary);
+            color: white;
+            padding: 1rem 1.5rem;
+            margin-bottom: 2rem;
+            border-left: 4px solid var(--accent);
+            border-radius: 8px;
+        }
+
+        .last-updated strong {
+            color: var(--accent);
+        }
+
+        /* CTA Button */
+        .btn-primary-custom {
+            background: var(--accent);
+            color: white;
+            border: none;
+            padding: 1rem 2.5rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-primary-custom:hover {
+            background: #D97706;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(245, 158, 11, 0.5);
+            color: white;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--text);
+            color: white;
+            padding: 3rem 0 1rem;
+        }
+
+        .footer h5 {
+            color: white;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .footer-links {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.5rem;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            margin-top: 2rem;
+            padding-top: 2rem;
+            text-align: center;
+            opacity: 0.7;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .page-header {
+                padding: 6rem 0 3rem;
+            }
+
+            .page-header h1 {
+                font-size: 2rem;
+            }
+
+            .legal-card {
+                padding: 2rem 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="https://publier-pbn.crseo.click">CRSEO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://publier-pbn.crseo.click">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://crseo.click">CRSEO.click</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://crseo.click/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8">
+                    <h1><span class="highlight">Mentions</span> Légales</h1>
+                    <p>Informations juridiques et conditions d'utilisation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Legal Content -->
+    <section class="legal-content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    
+                    <div class="last-updated">
+                        <strong>Dernière mise à jour :</strong> <span id="current-date"></span>
+                    </div>
+
+                    <!-- Propriétaire -->
+                    <div class="legal-card">
+                        <h2>1. Propriétaire du site</h2>
+                        
+                        <div class="info-box">
+                            <p><strong>Nom du site :</strong> Publier sur PBN (publier-pbn.crseo.click)</p>
+                            <p><strong>Propriétaire :</strong> Claude Laloy</p>
+                            <p><strong>Activité :</strong> Créateur et gestionnaire de sites web & Conseiller en présence internet</p>
+                            <p><strong>Adresse :</strong> 1435 Hévillers (Mont-Saint-Guibert), Belgique</p>
+                        </div>
+
+                        <p>
+                            Le site publier-pbn.crseo.click est la propriété de Claude Laloy, créateur et gestionnaire de sites web 
+                            & conseiller en présence internet, basé à Hévillers (Mont-Saint-Guibert), Belgique.
+                        </p>
+
+                        <p>
+                            La conception, le développement, la maintenance technique et les mises à jour du site 
+                            sont assurés par Claude Laloy.
+                        </p>
+
+                        <h3>Contact</h3>
+                        <p>Pour toute question ou demande d'information concernant le site, vous pouvez nous contacter par email à : <strong>info@crseo.net</strong></p>
+                    </div>
+
+                    <!-- Hébergement -->
+                    <div class="legal-card">
+                        <h2>2. Hébergement</h2>
+                        
+                        <div class="info-box">
+                            <p><strong>Hébergeur :</strong> GitHub, Inc.</p>
+                            <p><strong>Service :</strong> GitHub Pages</p>
+                            <p><strong>Adresse :</strong> 88 Colin P Kelly Jr St, San Francisco, CA 94107, États-Unis</p>
+                            <p><strong>Site web :</strong> <a href="https://github.com" target="_blank">https://github.com</a></p>
+                        </div>
+
+                        <p>
+                            Le site publier-pbn.crseo.click est hébergé sur les serveurs de GitHub Pages, 
+                            un service d'hébergement web statique fourni par GitHub, Inc.
+                        </p>
+                    </div>
+
+                    <!-- Nom de domaine -->
+                    <div class="legal-card">
+                        <h2>3. Nom de domaine</h2>
+                        
+                        <div class="info-box">
+                            <p><strong>Nom de domaine :</strong> crseo.click (sous-domaine publier-pbn.crseo.click)</p>
+                            <p><strong>Registrar :</strong> PlanetHoster à Laval</p>
+                            <p><strong>Adresse :</strong> 4416 Louis-B.-Mayer, Laval, Québec, H7P 0G1, Canada</p>
+                            <p><strong>Téléphone (Support) :</strong> +1 514-360-8573 (Québec) ou +33 (0)1 76 60 41 43 (France)</p>
+                        </div>
+
+                        <p>
+                            Le nom de domaine crseo.click est enregistré auprès de PlanetHoster à Laval 
+                            et est la propriété de Claude Laloy.
+                        </p>
+                    </div>
+
+                    <!-- Propriété intellectuelle -->
+                    <div class="legal-card">
+                        <h2>4. Propriété intellectuelle</h2>
+                        
+                        <p>
+                            L'ensemble du contenu du site publier-pbn.crseo.click (textes, images, graphismes, logos, icônes, 
+                            sons, logiciels, structure du site) est la propriété exclusive de Claude Laloy, 
+                            à l'exception des marques, logos ou contenus appartenant à d'autres sociétés partenaires ou auteurs.
+                        </p>
+
+                        <p>
+                            Toute reproduction, distribution, modification, adaptation, retransmission ou publication, 
+                            même partielle, de ces différents éléments est strictement interdite sans l'accord exprès 
+                            par écrit de Claude Laloy.
+                        </p>
+
+                        <p>
+                            Cette représentation ou reproduction, par quelque procédé que ce soit, constitue une contrefaçon 
+                            sanctionnée par les articles L.335-2 et suivants du Code de la Propriété Intellectuelle.
+                        </p>
+                    </div>
+
+                    <!-- Protection des données -->
+                    <div class="legal-card">
+                        <h2>5. Protection des données personnelles (RGPD)</h2>
+                        
+                        <h3>Responsable du traitement</h3>
+                        <p>
+                            Le responsable du traitement des données personnelles collectées sur le site publier-pbn.crseo.click 
+                            est Claude Laloy.
+                        </p>
+
+                        <h3>Données collectées</h3>
+                        <p>Les données personnelles collectées sur ce site sont :</p>
+                        <ul>
+                            <li>Nom et prénom</li>
+                            <li>Adresse email</li>
+                            <li>Nom de l'entreprise (le cas échéant)</li>
+                            <li>Numéro de téléphone (facultatif)</li>
+                            <li>Données de navigation (cookies)</li>
+                        </ul>
+
+                        <h3>Finalité de la collecte</h3>
+                        <p>Les données personnelles sont collectées dans les buts suivants :</p>
+                        <ul>
+                            <li>Répondre aux demandes de contact et d'information</li>
+                            <li>Gérer les comptes clients et les abonnements</li>
+                            <li>Améliorer l'expérience utilisateur sur le site</li>
+                            <li>Envoyer des communications commerciales (avec consentement)</li>
+                            <li>Effectuer des analyses statistiques</li>
+                        </ul>
+
+                        <h3>Durée de conservation</h3>
+                        <p>
+                            Les données personnelles sont conservées pour la durée nécessaire à la réalisation 
+                            des finalités mentionnées ci-dessus, conformément à la législation en vigueur.
+                        </p>
+
+                        <h3>Droits des utilisateurs</h3>
+                        <p>Conformément au RGPD, vous disposez des droits suivants :</p>
+                        <ul>
+                            <li><strong>Droit d'accès :</strong> Vous pouvez demander l'accès à vos données personnelles</li>
+                            <li><strong>Droit de rectification :</strong> Vous pouvez demander la correction de vos données</li>
+                            <li><strong>Droit à l'effacement :</strong> Vous pouvez demander la suppression de vos données</li>
+                            <li><strong>Droit à la limitation :</strong> Vous pouvez demander la limitation du traitement</li>
+                            <li><strong>Droit à la portabilité :</strong> Vous pouvez demander le transfert de vos données</li>
+                            <li><strong>Droit d'opposition :</strong> Vous pouvez vous opposer au traitement de vos données</li>
+                        </ul>
+
+                        <p>
+                            Pour exercer ces droits, vous pouvez nous contacter à l'adresse : 
+                            <strong><a href="https://crseo.click/contact.html">Formulaire de contact</a></strong>
+                        </p>
+                    </div>
+
+                    <!-- Cookies -->
+                    <div class="legal-card">
+                        <h2>6. Cookies</h2>
+                        
+                        <p>
+                            Le site <a href="https://publier-pbn.crseo.click">publier-pbn.crseo.click</a> peut utiliser des cookies pour améliorer l'expérience utilisateur 
+                            et analyser le trafic du site.
+                        </p>
+
+                        <h3>Types de cookies utilisés</h3>
+                        <ul>
+                            <li><strong>Cookies essentiels :</strong> Nécessaires au fonctionnement du site</li>
+                            <li><strong>Cookies analytiques :</strong> Pour analyser l'utilisation du site (Google Analytics)</li>
+                            <li><strong>Cookies de préférences :</strong> Pour mémoriser vos préférences</li>
+                        </ul>
+
+                        <p>
+                            Vous pouvez configurer votre navigateur pour refuser les cookies. Cependant, 
+                            cela peut affecter certaines fonctionnalités du site.
+                        </p>
+
+                        <p>
+                            Pour plus d'informations sur les cookies et leur gestion, consultez notre 
+                            politique de cookies complète.
+                        </p>
+                    </div>
+
+                    <!-- Liens externes -->
+                    <div class="legal-card">
+                        <h2>7. Liens externes</h2>
+                        
+                        <p>
+                            Le site <a href="https://publier-pbn.crseo.click">publier-pbn.crseo.click</a> peut contenir des liens hypertextes vers d'autres sites internet. 
+                            Claude Laloy n'exerce aucun contrôle sur ces sites et décline toute responsabilité 
+                            quant à leur contenu, leur disponibilité ou leurs pratiques en matière de confidentialité.
+                        </p>
+
+                        <p>
+                            La présence de liens vers d'autres sites n'implique pas l'approbation de ces sites 
+                            par Claude Laloy.
+                        </p>
+                    </div>
+
+                    <!-- Limitation de responsabilité -->
+                    <div class="legal-card">
+                        <h2>8. Limitation de responsabilité</h2>
+                        
+                        <p>
+                            Claude Laloy s'efforce d'assurer l'exactitude et la mise à jour des informations 
+                            diffusées sur le site publier-pbn.crseo.click. Toutefois, il ne peut garantir l'exactitude, 
+                            la précision ou l'exhaustivité des informations mises à disposition sur ce site.
+                        </p>
+
+                        <p>
+                            En conséquence, Claude Laloy décline toute responsabilité pour :
+                        </p>
+                        <ul>
+                            <li>Toute imprécision, inexactitude ou omission portant sur des informations disponibles sur le site</li>
+                            <li>Tout dommage résultant d'une intrusion frauduleuse d'un tiers ayant entraîné une modification des informations</li>
+                            <li>Tout dommage direct ou indirect causé au matériel de l'utilisateur lors de l'accès au site</li>
+                            <li>L'interruption temporaire ou définitive du site pour maintenance ou pour tout autre motif</li>
+                        </ul>
+                    </div>
+
+                    <!-- Droit applicable -->
+                    <div class="legal-card">
+                        <h2>9. Droit applicable et juridiction</h2>
+                        
+                        <p>
+                            Les présentes mentions légales sont régies par le droit belge. 
+                            Tout litige relatif à l'utilisation du site publier-pbn.crseo.click sera soumis 
+                            à la compétence exclusive des tribunaux belges.
+                        </p>
+
+                        <p>
+                            En cas de litige, une solution amiable sera recherchée avant toute action judiciaire.
+                        </p>
+                    </div>
+
+                    <!-- Contact -->
+                    <div class="legal-card">
+                        <h2>10. Contact</h2>
+                        
+                        <p>
+                            Pour toute question concernant ces mentions légales ou pour exercer vos droits, 
+                            vous pouvez nous contacter :
+                        </p>
+
+                        <div class="info-box">
+                            <p><strong>Par email :</strong> info@crseo.net</p>
+                            <p><strong>Par courrier :</strong><br>
+                            Claude Laloy<br>
+                            1435 Hévillers (Mont-Saint-Guibert)<br>
+                            Belgique</p>
+                        </div>
+                    </div>
+
+                    <!-- Back to home -->
+                    <div class="text-center mt-5 mb-5">
+                        <a href="https://publier-pbn.crseo.click" class="btn btn-primary-custom">← Retour à l'accueil</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5>CRSEO - Publier sur PBN</h5>
+                    <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem;">
+                        Guide complet pour publier sur PBN et obtenir des backlinks francophones de qualité.
+                    </p>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Guides</h5>
+                    <ul class="footer-links">
+                        <li><a href="https://publier-pbn.crseo.click">Accueil</a></li>
+                        <li><a href="https://publier-pbn.crseo.click#guide-complet">Guide Complet</a></li>
+                        <li><a href="https://publier-pbn.crseo.click#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="https://crseo.click">CRSEO.click</a></li>
+                        <li><a href="https://acces-pbn-seo.crseo.click">Réseau PBN</a></li>
+                        <li><a href="https://crseo.click/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Ressources</h5>
+                    <ul class="footer-links">
+                        <li><a href="https://crseo.click">Blog SEO</a></li>
+                        <li><a href="https://crseo.click">Études de Cas</a></li>
+                        <li><a href="https://crseo.click">Tarifs</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Légal</h5>
+                    <ul class="footer-links">
+                        <li><a href="mentions-legales.html">Mentions légales</a></li>
+                        <li><a href="https://crseo.click/mentions-legales.html">CGV</a></li>
+                        <li><a href="https://crseo.click/mentions-legales.html">Confidentialité</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> CRSEO - Publier sur PBN et Backlinks Francophones</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Update date
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        const currentDate = new Date().toLocaleDateString('fr-FR', options);
+        document.getElementById('current-date').textContent = currentDate;
+
+        // Automatic year update
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
